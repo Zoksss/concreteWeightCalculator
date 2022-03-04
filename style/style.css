@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #242424;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #eff8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .title {
+  margin-top: -60px;
+  margin-bottom: 40px;
+}
+
+body .main-container {
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 10px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 10px 5px rgba(0, 0, 0, 0.05);
+  width: 83%;
+  max-width: 400px;
+  height: 670px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main-container .top-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 110px;
+}
+
+body .main-container .top-buttons button {
+  border: none;
+  border: 1px solid #242424;
+  background-color: white;
+  margin: 10px;
+  width: 110px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-transition: 150ms all ease;
+  transition: 150ms all ease;
+}
+
+body .main-container .top-buttons button:hover {
+  background-color: #f0f0f0;
+  margin-top: -10px;
+}
+
+body .main-container .top-buttons button img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+body .main-container .top-buttons button p {
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+}
+
+body .main-container .inputs {
+  margin-top: 25px;
+  max-width: 240px;
+}
+
+body .main-container .inputs p {
+  font-size: 20px;
+}
+
+body .main-container .inputs input {
+  margin-top: 6px;
+  height: 35px;
+  padding: 6px;
+  font-size: 18px;
+  border: 1px solid #242424;
+  margin-bottom: 10px;
+}
+
+body .main-container .inputs button {
+  width: 235px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #1161ff;
+  border: none;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+  -webkit-transition: 150ms all ease;
+  transition: 150ms all ease;
+}
+
+body .main-container .inputs button:hover {
+  background-color: #004fec;
+  border-radius: 10px;
+}
+
+body .main-container .results {
+  font-size: 20px;
+}
+
+body .main-container .results .vol {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+body .main-container .results .mass {
+  margin-bottom: 8px;
+}
+
+body .main-container .results hr {
+  width: 235px;
+}
+
+body .main-container .results .note {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
