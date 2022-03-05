@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
     <title>Concrete Weight Calculator</title>
 </head>
 
@@ -15,7 +16,7 @@
     </h1> -->
     <div class="main-container">
         <div class="top-buttons">
-            <button id="cylinderButton">
+            <button id="cylinderButton" class="activeBtn">
                 <img src="/assets/cylinder.png">
                 <p>Plate</p>
             </button>
@@ -25,21 +26,21 @@
             </button>
         </div>
         <div class="inputs">
-            <p>Radius (cm)</p>
-            <input type="number" placeholder="Radius" id="radiusInput">
-            <p>Tube Radius (cm)</p>
-            <input type="number" placeholder="Tube Radius" id="tubeRadiusInput">
+            <p id="diameterP">Diameter (cm)</p>
+            <input type="number" id="diameterInput" value=0>
+            <p id="tubeDiameterP">Tube Diameter (cm)</p>
+            <input type="number" id="tubeDiameterInput" value=0>
             <p>Height (cm)</p>
-            <input type="number" placeholder="Height" id="heightInput">
+            <input type="number" id="heightInput" value=0>
             <button class="submit" id="calculateBtn">Calculate</button>
         </div>
         <div class="results">
-            <p class="vol" id="volumeElement">Volume: 100cm&#178;</p>
-            <p class="mass" id="massElement">Mass: 15kgcm;</p>
+            <p class="vol" id="volumeElement">Volume: 0cm&#178;</p>
+            <p class="mass" id="massElement">Mass: 0kgcm;</p>
             <hr>
-            <p id="sandKg">Sand: 15.6kg</p>
-            <p id="cementKg">Cement: 15.6kg</p>
-            <p id="agregateKg"> Agregates: 15.6kg</p>
+            <p id="sandKg">Sand: 0kg</p>
+            <p id="cementKg">Cement: 0kg</p>
+            <p id="agregateKg"> Agregates: 0kg</p>
             <p class="note">*calculation for 1:2:3 concrete ratio</p>
         </div>
     </div>
